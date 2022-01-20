@@ -1,4 +1,4 @@
-Uses modlues "pysinewave", "time", and "random"
+Uses modlues "pysinewave (needed to pip install before using)", "time", and "random"
 
 Example game for easy mode
 
