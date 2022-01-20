@@ -1,4 +1,4 @@
-Uses modlues "pysinewave (needed to pip install before using)", "time", and "random"
+Uses modules "pysinewave (needed to pip install before using)", "time", and "random"
 
 
 Enter "stop" whenever you would like to stop playing
