@@ -15,6 +15,9 @@ def pitcheasy(difficulty):
 
     # Setting "a" to be the correct number to play the corresponding pitch found in the "pitches1" list
     sine = SineWave(pitch=a)
+
+    print(f'For accidentals: "#" for sharp, do not use regular flats')
+
     play(sine, randpitch, difficulty)
 
 def pitchhard(difficulty):
@@ -25,6 +28,8 @@ def pitchhard(difficulty):
     # Setting "a" to be the correct number to play the corresponding pitch found in the "pitches2" list
     a /= 2
     sine = SineWave(pitch=a)
+
+    print(f'For accidentals: use "/" for half sharp, "#" for sharp, "d" for half flat, do not use regular flats')
 
     play(sine, randpitch, difficulty)
 
@@ -39,7 +44,6 @@ def play(sine, randpitch, difficulty):
 
 def guess(randpitch, difficulty):
     global score
-    print(f'For accidentals: use "/" for half sharp, "#" for sharp, "d" for half flat, do not use regular flats')
     guess = input('What was that pitch? ')
     print()
     if guess.lower() == 'stop':
