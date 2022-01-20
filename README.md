@@ -1,3 +1,5 @@
+Uses modlues "pysinewave", "time", and "random"
+
 Example game for easy mode
 
 
