@@ -1,5 +1,6 @@
 Example game for easy mode
 
+
 Enter "stop" whenever you would like to stop playing
 Welcome to the pitch guessing game! Enter a "1" for easy and a "2" for hard: 1
 Playing pitch
@@ -31,6 +32,7 @@ Process finished with exit code 0
 
 
 Example game for hard mode
+
 
 
 Enter "stop" whenever you would like to stop playing
