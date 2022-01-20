@@ -2,9 +2,13 @@ Uses modlues "pysinewave (needed to pip install before using)", "time", and "ran
 
 
 Enter "stop" whenever you would like to stop playing
+
 Welcome to the pitch guessing game! Enter a "1" for easy and a "2" for hard: 1
+
 For accidentals: "#" for sharp, do not use regular flats
+
 Playing pitch
+
 What was that pitch? e
 
 Sorry! The correct pitch was f#
